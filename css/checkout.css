@@ -1,0 +1,2188 @@
+.urlen {
+    display: none;
+}
+
+#check-out {
+    z-index: 9999;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    overflow-x: hidden;
+    background-image: url('../images/backgroundsign.png');
+    text-align: left;
+    display: none;
+}
+
+#fnames::-webkit-input-placeholder {
+    color: red;
+}
+
+#fnames:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#fnames::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#fnames:-ms-input-placeholder {
+    color: red;
+}
+
+#lnames::-webkit-input-placeholder {
+    color: red;
+}
+
+#lnames:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#lnames::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#lnames:-ms-input-placeholder {
+    color: red;
+}
+
+#gata::-webkit-input-placeholder {
+    color: red;
+}
+
+#gata:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#gata::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#gata:-ms-input-placeholder {
+    color: red;
+}
+
+#postnummer::-webkit-input-placeholder {
+    color: red;
+}
+
+#postnummer:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#postnummer::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#postnummer:-ms-input-placeholder {
+    color: red;
+}
+
+#stad::-webkit-input-placeholder {
+    color: red;
+}
+
+#stad:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#stad::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#stad:-ms-input-placeholder {
+    color: red;
+}
+
+#emailsc::-webkit-input-placeholder {
+    color: red;
+}
+
+#emailsc:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#emailsc::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#emailsc:-ms-input-placeholder {
+    color: red;
+}
+
+#telefon::-webkit-input-placeholder {
+    color: red;
+}
+
+#telefon:-moz-placeholder {
+    /* Firefox 18- */
+    color: red;
+}
+
+#telefon::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red;
+}
+
+#telefon:-ms-input-placeholder {
+    color: red;
+}
+
+#out h2 {
+    float: left;
+}
+
+#out h1 {
+    margin-left: 2%;
+}
+
+#out {
+    height: 80vh;
+    margin-top: 5%;
+    overflow-y: scroll;
+    margin-left: -5%;
+    width: 72vw;
+    position: fixed;
+    background: white;
+    color: black;
+    flex-grow: 1;
+    flex-basis: 50%;
+    overflow-x: hidden;
+    border: none;
+    right: 13vw;
+}
+
+/* CLOSE ACCOUNT BTN */
+
+#close-x {
+    top: -2vh;
+    float: right;
+    right: 5vw;
+    position: absolute;
+    font-size: 3em;
+    cursor: pointer;
+    font-weight: 900;
+    color: #000;
+    z-index: 1900;
+    display: none;
+}
+
+#betal img {
+    max-height: 20px;
+    float: left;
+}
+
+.bet {
+    text-align: left;
+    display: inline;
+}
+
+#chkform {
+    margin-left: 2%;
+    position: relative;
+    width: 80%;
+}
+
+#chkform label {
+    font-weight: 400;
+}
+
+#chkform input {
+    background: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#prdcts {
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+    top: 0%;
+    right: 0;
+    position: absolute;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: inline;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.pro-name:hover {
+    color: #bb9d97;
+}
+
+.products {
+    width: 70%;
+    position: relative;
+    height: 100%;
+    margin-left: 25%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 0%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.minus {
+    font-size: 80%;
+    font-weight: 600;
+    display: block;
+    margin-left: 0%;
+    margin-top: -7px;
+    background: #F2D5CF!important;
+    width: 30%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.minus:hover {
+    background: #9c817c!important;
+    color: white!important;
+}
+
+#prdcts img {
+    width: 100%;
+    max-width: 120px;
+    position: relative;
+    float: left;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
+.img {
+    width: 20%;
+    margin-top: -22%;
+    float: left;
+    display: inline-block;
+    margin-left: -27%;
+}
+
+.products a {
+    color: black!important;
+}
+
+.under {
+    margin-top: -15px;
+}
+
+.products:last-child {
+    border: none;
+}
+
+.products .artnr {
+    margin-top: -20px;
+    font-size: 80%;
+    display: inline;
+}
+
+.products .artfill {
+    margin-top: -20px;
+    font-size: 80%;
+    display: inline;
+}
+
+.numbers {
+    color: black;
+    width: 7%;
+    padding-left: 20px;
+    display: inline;
+    font-size: 110%;
+    font-weight: 600;
+    background: white;
+    border: 1px solid black;
+}
+
+.number {
+    padding-left: 20%;
+    padding-bottom: 0%;
+    margin-top: 0;
+    font-size: 120%;
+    display: inline;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+.sum {
+    font-weight: 600;
+    font-size: 120%;
+    display: inline;
+    margin-left: 20%;
+}
+
+.sumfill {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.sum2 {
+    font-weight: 600;
+    margin-top: -9%;
+    font-size: 120%;
+    display: inline;
+}
+
+#removeall {
+    width: 75%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+#tabort {
+    font-size: 120%;
+    float: left;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    background: #F2D5CF!important;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#tabort:hover {
+    background: #bb9d97;
+    color: white;
+}
+
+#conf {
+    margin-left: 2%;
+}
+
+#conf button {
+    font-size: 100%;
+    font-weight: 400!important;
+    cursor: pointer;
+    position: relative;
+    background: #F2D5CF;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#conf button:hover {
+    background: #bb9d97!important;
+    color: white;
+}
+
+#conf2 {
+    margin-left: 2%;
+}
+
+#conf2 button {
+    font-size: 100%;
+    font-weight: 400!important;
+    cursor: pointer;
+    position: relative;
+    background: #F2D5CF;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#conf2 button:hover {
+    background: #bb9d97!important;
+    color: white;
+}
+
+.yepp {
+    margin-left: 5%;
+}
+
+#last button:hover {
+    background: #bb9d97;
+}
+
+#cred {
+    width: 35%;
+    margin-left: 2%;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#cred p {
+    font-size: 90%;
+    line-height: 2.8;
+    display: inline;
+    width: 100%;
+}
+
+#cred img {
+    max-height: 10px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#cred input {
+    display: inline;
+    font-size: 80%;
+    font-weight: 600;
+    margin-left: 0px;
+    background: white;
+    width: 60px;
+}
+
+.shiptext {
+    position: relative;
+}
+
+.cost {
+    display: inline;
+}
+
+#notFree {
+    display: inline-block;
+    position: relative;
+}
+
+#betal {
+    width: 35%;
+    position: relative;
+    margin-left: 2%;
+    display: none;
+    line-height: 2.5;
+}
+
+#betal input {
+    clear: both;
+    display: inline;
+    width: 30px;
+    background: white;
+}
+
+#dhlfrakt {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#postfrakt {
+    width: 100%;
+    display: block;
+}
+
+#betal img {
+    display: inline;
+    max-height: 15px;
+    padding-top: 10px;
+    float: left;
+}
+
+#betal label {
+    display: inline;
+    font-size: 80%;
+    font-weight: 600;
+    margin-left: 2%;
+    clear: both;
+}
+
+#last {
+    width: 30%;
+    position: relative;
+    margin-left: 2%;
+    display: none;
+    text-align: left;
+    line-height: 2;
+    float: left;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+#last input {
+    width: 60%;
+}
+
+/*SUMMAN */
+
+#ifnot {
+    display: inline;
+    padding-bottom: 20px;
+}
+
+/*TOTALT */
+
+#krt {
+    display: inline;
+}
+
+/*.KR */
+
+#kr {
+    display: inline;
+    margin-left: -5px;
+}
+
+#not {
+    float: none;
+    clear:both;
+    position: relative;
+    left: 2%;
+    font-weight: 400;
+    font-size: 150%;
+    color: #000000;
+}
+
+#frkt {
+    font-weight: 400;
+    font-size: 150%;
+    color: #000000;
+    margin-left: 0%;
+    display: inline;
+    position: absolute;
+}
+
+#rabattkod {
+    background: white;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+#checkout {
+    background: #F2D5CF;
+    top: 0;
+    cursor: pointer;
+    color: black;
+}
+
+#checkout:hover {
+    background: #bb9d97;
+}
+
+button {
+    background: #F2D5CF!important;
+    cursor: pointer;
+    color: black!important;
+    font-weight: 600!important;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+#rabatt:hover {
+    background: #bb9d97!important;
+    color: white!important;
+}
+
+#tt1 {
+    font-weight: 600;
+    font-size: 120%;
+    color: black;
+    display: inline;
+}
+
+#tt2 {
+    font-weight: 600;
+    font-size: 120%;
+    color: black;
+    display: inline;
+}
+
+#total {
+    font-weight: 600;
+    font-size: 120%;
+    color: black;
+    display: inline;
+}
+
+#rabattMsg {
+    font-weight: 400;
+    color: #9c817c;
+    margin-top: 0;
+}
+
+#disc {
+    padding-top: 15px;
+    font-weight: 500;
+    color: #9c817c;
+    margin-top: -20px;
+}
+
+/* KLARNA FAKTURA */
+
+#klarnafak {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -5vh;
+    top: 10vh;
+    left: 0;
+    text-align: center;
+    font-family: roboto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 20001;
+    background-image: url('../images/backgroundsign.png')
+}
+
+#klarnainner {
+    top: 200px;
+    max-width: 30%;
+    margin: auto;
+    text-align: left;
+    background-image: linear-gradient(#9ab5d2, #b8d0e9);
+    border: 1px solid #9ab5d2;
+    border-radius: 3px;
+}
+
+#bordertop {
+    background-image: linear-gradient(#9ab5d2, #b8d0e9);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#bordertop p {
+    font-family: verdana;
+    display: inline;
+    text-align: left;
+    color: black;
+    margin-left: 1%;
+    font-size: 78%;
+}
+
+#bordertop button {
+    display: inline;
+    float: right;
+    color: black;
+    background: none!important;
+    padding-right: 1%;
+}
+
+#bordertop button:hover {
+    color: white!important;
+}
+
+#kwrapper {
+    max-width: 99%;
+    background: white;
+    margin-top: -0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    color: #469CBE;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#kwrapper h1 {
+    font-weight: 200!important;
+    font-size: 1.8em;
+    color: #469CBE;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+#topsec {
+    color: #469CBE;
+    border: 1px solid #efefef;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#topsec h2 {
+    margin-left: 20px!important;
+    font-weight: 200;
+}
+
+#topsec h3 {
+    margin-left: 20px;
+    margin-right: 35px;
+    font-weight: 200;
+    color: #323232;
+    margin-top: -12px;
+}
+
+#topsec2 {
+    background: #fbfbfb;
+    border: 1px solid #efefef;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+#topsec2 h3 {
+    margin-left: 20px;
+    margin-right: 35px;
+    font-weight: 200;
+}
+
+#ram {
+    margin-right: 23px;
+    margin-left: 23px;
+    border: 1px solid black;
+    background: white;
+    padding-bottom: 40px;
+}
+
+#ram p {
+    color: black;
+    font-family: verdana;
+    font-size: 75%;
+    padding-left: 4px;
+    margin-top: 4px;
+}
+
+#tophalf {
+    background: #fbfbfb;
+    border: 1px solid #efefef;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+#tophalf h3 {
+    margin-left: 20px;
+    margin-right: 35px;
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+#tophalf img {
+    float: right;
+    max-width: 60px;
+    margin-right: 35px;
+    margin-top: -10px;
+}
+
+#tophalf select {
+    background-image: linear-gradient(#f9f9f9, #d0d0d0)!important;
+    width: 60%;
+    margin-left: 23px;
+}
+
+#date {
+    color: #333;
+    font-size: 66%;
+    margin-left: 23px;
+    font-family: verdana;
+}
+
+#bottomhalf {
+    background: #f2fbfc;
+    border: 1px solid #cdeef3;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+#bottomhalf p {
+    margin-left: 20px;
+}
+
+#bottomhalf input {
+    margin-left: 20px;
+    border: 1px solid #7a7a7a;
+    width: 50%;
+    padding-left: 5px;
+    font-size: 1.2em;
+    color: black;
+    background: white;
+}
+
+#bottomhalf input:focus, #bottomhalf button:focus {
+    outline: 2px solid #abc7dd;
+    border: none;
+}
+
+#klast img {
+    padding-top: 15px;
+    display: inline;
+}
+
+#klast img {
+    max-width: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: inline;
+}
+
+#klast {
+    padding-bottom: 0px;
+    display: inline;
+}
+
+#klast #acc {
+    color: white!important;
+    font-size: 0.6em;
+    font-family: verdana;
+    margin-left: 30%;
+    background-image: linear-gradient(#a7d6e0, #7db8c0)!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 25px;
+    display: inline;
+}
+
+#klast #acc:hover {
+    background-image: linear-gradient(#7db8c0, #51828f)!important;
+}
+
+#klast #avbryt:hover {
+    background-image: linear-gradient(#f9f9f9, #adadad)!important;
+}
+
+#klast #avbryt {
+    color: black!important;
+    font-size: 0.6em;
+    font-family: verdana;
+    margin-left: 20px;
+    background-image: linear-gradient(#f9f9f9, #d0d0d0)!important;
+    margin-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90px;
+    display: inline;
+}
+
+#klast button:focus {
+    outline: 2px solid #abc7dd;
+    border: none;
+}
+
+/* PAYPAL CHECKOUT */
+
+#pbkg {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 20001;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url('../images/backgroundsign.png');
+}
+
+#pinner {
+    max-width: 50%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    text-align: left;
+    background-image: linear-gradient(#9ab5d2, #b8d0e9);
+    border: 1px solid #9ab5d2;
+    border-radius: 3px;
+}
+
+#ptop {
+    background-image: linear-gradient(#9ab5d2, #b8d0e9);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#ptop p {
+    font-family: verdana;
+    display: inline;
+    text-align: left;
+    color: black;
+    margin-left: 1%;
+    font-size: 78%;
+}
+
+#ptop button {
+    display: inline;
+    float: right;
+    color: black;
+    background: none!important;
+    padding-right: 1%;
+}
+
+#ptop button:hover {
+    color: white!important;
+}
+
+#ptopmiddle {
+    max-width: 100%;
+    background: white;
+    color: #1f457c;
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#pwrap {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#ptopmiddle h1 {
+    font-weight: 400;
+    padding-left: 30px;
+    display: inline;
+}
+
+#ptopmiddle img {
+    display: inline;
+    margin-right: 10px;
+    float: right;
+}
+
+#pwrap i {
+    color: #444;
+    float: right;
+    padding-right: 20px;
+}
+
+#ptopmiddle #pprice {
+    display: inline;
+    color: black;
+    float: right;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+#pcontainer {
+    max-width: 99%;
+    margin-left: 2px;
+    padding-right: 4px;
+    background-image: linear-gradient(#eceded, #fafbfb);
+    border: 1px solid #dbdbdb;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+
+#pcontainer p {
+    float: right;
+    color: #3167b3;
+    font-size: 65%;
+    cursor: pointer;
+}
+
+#pcontainer p:hover {
+    text-decoration: underline;
+}
+
+#pcontainer #english {
+    margin-right: 30px;
+}
+
+#pcontainer #france {
+    margin-right: 20px;
+}
+
+#innerp {
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+#innerp #pp {
+    max-width: 120px;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: right;
+    display: block;
+}
+
+#rightsec {
+    float: right;
+    max-width: 35%;
+    padding-right: 50px;
+}
+
+#rightsec h2 {
+    width: 100%;
+    display: block;
+    position: absolute;
+    font-weight: 200;
+    float: right;
+    color: #444444;
+    padding-top: 70px;
+}
+
+#ptextbox p {
+    cursor: auto!important;
+    text-decoration: none!important;
+    padding-top: 60px;
+    font-size: 85%!important;
+    color: #444444;
+}
+
+#innerp #wallet {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#plog {
+    background: white;
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px #cacaca;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 40px;
+    color: #1f457c;
+}
+
+#plog h3 {
+    margin-left: 40px;
+    font-weight: 200;
+}
+
+#postfrakt {
+    line-height: 0;
+}
+
+#plog input {
+    margin-left: 40px;
+    font-weight: 200;
+    display: block;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    color: #444444;
+}
+
+#plog button {
+    margin-left: 40px;
+    padding-left: 5px;
+    font-weight: 200;
+    display: block;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white!important;
+    background-image: linear-gradient(#4d9ffc, #397ac2)!important;
+    border: 1px solid #295c92;
+}
+
+#plog button:hover {
+    background-image: linear-gradient(#397ac2, #295c92)!important;
+}
+
+#plog input:focus, #plog button:focus {
+    outline: 2px solid #abc7dd!important;
+}
+
+#pbtm {
+    float: left;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#pbtm button {
+    font-size: 80%!important;
+    float: right;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(#4d9ffc, #397ac2)!important;
+    border: 1px solid #295c92;
+    color: white!important;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#pbtm button:hover {
+    background-image: linear-gradient(#397ac2, #295c92)!important;
+}
+
+#bx1 p {
+    color: #444444;
+    text-decoration: none!important;
+    cursor: auto!important;
+}
+
+#bx1 {
+    color: #444444;
+    margin-top: 20px;
+}
+
+#bx2 {
+    margin-top: 10px;
+    float: left;
+}
+
+/* VISA / MASTERCARD */
+
+#vbkg {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 20001;
+    background-image: url('../images/backgroundsign.png')
+}
+
+#vinner {
+    top: 20%;
+    max-width: 40%;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    background: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#vinner img {
+    display: block;
+    padding-top: 20px;
+    top: 10%;
+    margin-left: 40%;
+    max-width: 20%;
+}
+
+#crd {
+    color: #444444;
+    text-align: left;
+    padding-left: 15%;
+    display: inline;
+}
+
+#crd img {
+    margin-left: 10px;
+    display: inline-block;
+    max-height: 30px;
+}
+
+#crd label {
+    display: inline-block;
+}
+
+#crd input {
+    display: inline;
+    background: white!important;
+    color: #444444!important;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 40%;
+}
+
+#crd input:focus {
+    outline: 2px solid #abc7dd;
+    border: none;
+}
+
+#exp input:focus {
+    outline: 2px solid #abc7dd;
+    border: none;
+}
+
+#exp {
+    color: #444444;
+    padding-left: 15%;
+    padding-bottom: 20px;
+}
+
+#exp img {
+    margin-left: 10px;
+    max-height: 30px;
+    display: inline-block;
+}
+
+#exp label {
+    display: inline-block;
+}
+
+#exp input {
+    display: inline;
+    background: white!important;
+    color: #444444!important;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 5%;
+}
+
+#vtotal {
+    padding-top: 5px;
+    background: #fafafa;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+
+#vtotal h2 {
+    text-align: left;
+    color: #444444;
+    float: left;
+}
+
+#vchkt button {
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+    border: 1px solid #6f9a37;
+    border-radius: 8px;
+    color: white!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(#82b440, #6f9a37)!important;
+}
+
+#vchkt button:hover {
+    background-image: linear-gradient(#6f9a37, #5e832d)!important;
+}
+
+#aavb button {
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    color: white!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(#cecece, #bcbcbc)!important;
+}
+
+#aavb button:hover {
+    background-image: linear-gradient(#bcbcbc, #a8a8a8)!important;
+}
+
+#sbkg {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0;
+    text-align: center;
+    z-index: 20001;
+    background-image: url('../images/backgroundsign.png')
+}
+
+#sinner {
+    top: 40%;
+    max-width: 40%;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    background: white;
+    border: 1px solid white;
+    color: #444444;
+    border-radius: 3px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1750px) {
+    #klarnainner {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1623px) {
+    .number {
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    #out {
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 1540px) {
+    #out {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 1518px) {
+    #pinner {
+        top: 10%;
+        max-width: 60%;
+    }
+    #klarnainner {
+        top: 0;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1483px) {
+    .number {
+        padding-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #close-x {
+        color: #666;
+        top: -4vh;
+        right: 3vw;
+    }
+    #klarnafak {
+        top: 0;
+    }
+    #klarnainner {
+        margin-top: 10%;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1483px) {
+    .sum {
+        margin-left: 13%;
+    }
+}
+
+/*STOR BRYTPUNKT */
+
+@media only screen and (max-width: 1280px) {
+    #out {
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+        left: -16vw;
+    }
+    #not {
+        margin: 0;
+        padding: 0;
+        margin-right: 10%;
+        float: none;
+        clear:both;
+    }
+    #close-x {
+        color: black;
+        top: -4vh;
+        right: 3vw;
+    }
+    #vbkg {
+        width: 100%;
+        height: 120vh;
+    }
+    #vinner {
+        top: 20%;
+        max-width: 120%;
+    }
+    #pbkg {
+        width: 100%;
+        top: 0;
+        height: 100%;
+    }
+    #pinner {
+        top: 10%;
+        left: 0;
+        float: left;
+        margin-left: 10%;
+        max-width: 70%;
+    }
+    #klarnafak {
+        top: 0;
+        margin-top: 0vh;
+        width: 100%;
+        height: 100%;
+    }
+    #klarnainner {
+        margin-top: 5vh;
+        max-width: 45%;
+    }
+    #betal {
+        padding-bottom: 250px;
+    }
+}
+    @media only screen and (max-width: 1483px) {
+        .number {
+            padding-left: 23%;
+        }
+    }
+    @media only screen and (max-width: 1180px) {
+        @-moz-document url-prefix() {
+            #prdcts {
+                width: 55%;
+                margin-right: 0%;
+            }
+            #cred {
+                width: 100%;
+                left: 0%;
+                display: block;
+                float: left;
+            }
+            #not {
+
+                margin-left: 20px;
+            }
+            .shiptext {
+                margin-left: -14%;
+                display: inline;
+            }
+        }
+    }
+    @media only screen and (max-width: 1140px) {
+ 
+        #pinner {
+            top: 10%;
+            max-width: 80%;
+        }
+        #klarnainner {
+            max-width: 50%;
+        }
+        #tabort {
+            position: relative;
+        }
+        #dhlfrakt {
+            position: absolute;
+            margin-top: -10px;
+        
+        }
+
+        #betal img{
+            display: none;
+        }
+        #betal {
+          margin-top: 0;
+          padding-top: 0;
+        }
+        #cred {
+            padding-bottom: 50px;
+        }
+    }
+    @media only screen and (max-width: 1121px) {
+        #tabort {
+            position: relative;
+            margin-top: 50px;
+        }
+        #postfrakt {
+            line-height: 0;
+        }
+        #dhlfrakt {
+            position: absolute;
+            margin-top: -0px;
+        }
+
+    }
+    @media only screen and (max-width: 1140px) {
+        @-moz-document url-prefix() {
+            #tabort {
+                position: relative;
+                margin-top: 0px;
+            }
+            #dhlfrakt {
+                position: relative;
+                margin-top: -10px;
+            }
+        }
+    }
+    @media only screen and (max-width: 1483px) {
+        .number {
+            padding-left: 12%;
+        }
+    }
+    @media only screen and (max-width: 1042px) {
+        @-moz-document url-prefix() {
+            #dhlfrakt {
+                margin-top: 0px!important;
+            }
+        }
+    }
+    @media only screen and (max-width: 1042px) {
+        #dhlfrakt {
+            margin-top: -20px;
+        }
+    }
+    @media only screen and (max-width: 1040px) {
+        #klarnainner {
+            max-width: 55%;
+        }
+        #out h1 {
+            margin-left: 7%;
+        }
+        #chkform {
+            margin-left: 7%;
+            position: relative;
+            width: 150%;
+            display: block;
+            float: left;
+        }
+        #prdcts .img {
+            margin-left: -25%;
+        }
+        #prdcts {
+            width: 95%;
+            clear: both;
+            float: none;
+    position: relative;
+            display: block;
+            margin-right: 5%;
+        }
+        .products {
+            margin-top: 5%;
+        }
+        #removeall {
+            margin-top: -1%;
+        }
+        #postfrakt {
+            float: left;
+            margin-left: 2%;
+        }
+        #dhlfrakt {
+            float: left;
+            margin-top: 45px;
+            margin-left: 2%;
+        }
+        #cred {
+            width: 100%;
+            left: 7%;
+            display: block;
+            float: left;
+            margin-top: 60px;
+            margin-left: -40px;
+        }
+        #not {
+            float: none;
+            clear: both;
+            margin-top: 200px!important;
+  
+            padding: 0;
+        }
+        #pinner {
+            width: 80%;
+        }
+        #betal {
+            width: 100%;
+            left: 7%;
+            display: block;
+            padding-bottom: 50px;
+            float: left;
+            margin-top: 60px;
+            margin-left: -40px;
+        }
+        #last {
+            width: 100%;
+            position: relative;
+            margin-left: 5%;
+            display: none;
+            text-align: left;
+            line-height: 2;
+            float: left;
+            margin-top: 20px;
+            padding-bottom: 150px;
+        }
+        #tabort {
+            float: right;
+        }
+        .minus {
+            margin-top: 10px;
+        }
+        .number {
+            padding-left: 25%;
+        }
+        #prdcts h2 {
+            margin-left: 7%;
+        }
+        #conf2 {
+            margin-left: 7%;
+        }
+    }
+    @media only screen and (max-width: 1039px) {
+        .number {
+            padding-left: 12%;
+        }
+    }
+    @media only screen and (max-width: 870px) {
+        #out h1 {
+            margin-left: 7%;
+        }
+        #chkform {
+            margin-left: 7%;
+            position: relative;
+            width: 150%;
+            display: block;
+            float: left;
+        }
+        #prdcts .img {
+            margin-left: -25%;
+        }
+        #prdcts {
+            width: 95%;
+            float: left;
+            margin-top: 5%;
+            display: block;
+            margin-right: 5%;
+        }
+        .products {
+            margin-top: 5%;
+        }
+        #removeall {
+            margin-top: -1%;
+        }
+
+        #pinner {
+            width: 80%;
+        }
+        #cred {
+            margin-left: 10px;
+        }
+        #betal {
+            margin-left: 10px;
+        }
+        #last {
+            width: 100%;
+            position: relative;
+            margin-left: 5%;
+            display: none;
+            text-align: left;
+            line-height: 2;
+            float: left;
+            margin-top: 20px;
+            padding-bottom: 150px;
+        }
+        #tabort {
+            float: right;
+        }
+        .minus {
+            margin-top: 10px;
+        }
+    }
+    @media only screen and (max-width: 850px) {
+        #rightsec {
+            float: right;
+            max-width: 35%;
+            padding-right: 50px;
+        }
+        #rightsec h2 {
+            width: 100%;
+            display: block;
+            position: relative;
+            font-weight: 200;
+            padding-top: 20px;
+        }
+        #ptextbox p {
+            padding-top: 10px;
+        }
+        #innerp #wallet {
+            width: 200px;
+            margin-top: 20px;
+            margin-left: 10%;
+        }
+        #plog {
+            max-width: 45%;
+        }
+        #plog h3 {
+            margin-left: 10%;
+        }
+        #plog input {
+            margin-left: 10%;
+        }
+        #plog button {
+            margin-left: 10%;
+        }
+        #klarnainner {
+            max-width: 70%;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        #rightsec {
+            float: right;
+            max-width: 95%;
+            padding-left: 10%;
+        }
+        #rightsec h2, #ptextbox, #wallet {
+            display: none;
+        }
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: -20%;
+            margin-top: 15%;
+            float: right;
+            display: block;
+            padding-bottom: 40px;
+            color: #1f457c;
+        }
+        #plog h3 {
+            margin-left: 10%;
+        }
+        #plog input {
+            margin-left: 10%;
+        }
+        #plog button {
+            margin-left: 10%;
+        }
+        #bx1 p {
+            float: right;
+            display: block;
+            margin-right: 24vw;
+            margin-top: 10px;
+        }
+        #bx2 {
+            margin-top: 0px;
+            float: right;
+            display: block;
+            margin-right: 19vw;
+        }
+        #pbtm button {
+            display: block;
+            float: right;
+            margin-right: 25vw;
+            margin-top: 10px;
+        }
+    }
+    @media only screen and (max-width: 784px) {
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: 20%;
+            margin-top: 15%;
+            float: right;
+            display: block;
+            padding-bottom: 40px;
+            color: #1f457c;
+        }
+        #plog h3 {
+            margin-left: 10%;
+        }
+        #plog input {
+            margin-left: 10%;
+        }
+        #plog button {
+            margin-left: 10%;
+        }
+        #bx1 p {
+            float: right;
+            display: block;
+            margin-right: 24vw;
+            margin-top: 10px;
+        }
+        #bx2 {
+            margin-top: 0px;
+            float: right;
+            display: block;
+            margin-right: 19vw;
+        }
+        #pbtm button {
+            display: block;
+            float: right;
+            margin-right: 25vw;
+            margin-top: 10px;
+        }
+    }
+    @media only screen and (max-width: 740px) {
+        #klarnainner {
+            max-width: 75%;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        #rightsec {
+            float: right;
+            max-width: 95%;
+            padding-left: 10%;
+        }
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: 20%;
+            margin-top: 15%;
+            float: right;
+            display: block;
+            padding-bottom: 40px;
+            color: #1f457c;
+        }
+        #plog h3 {
+            margin-left: 10%;
+        }
+        #plog input {
+            margin-left: 10%;
+        }
+        #plog button {
+            margin-left: 10%;
+        }
+        #bx1 p {
+            float: right;
+            display: block;
+            margin-right: 24vw;
+            margin-top: 10px;
+        }
+        #bx2 {
+            margin-top: 0px;
+            float: right;
+            display: block;
+            margin-right: 17vw;
+        }
+        #pbtm button {
+            display: block;
+            float: right;
+            margin-right: 25vw;
+            margin-top: 10px;
+        }
+        #klarnainner {
+            max-width: 80%;
+        }
+
+
+    }
+    @media only screen and (max-width: 650px) {
+        #klarnainner {
+            max-width: 85%;
+        }
+        #vinner {
+            max-width: 100%;
+            width: 100%;
+        }
+ 
+        #chkform input {
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width: 610px) {
+        .number {
+            padding-left: 12%;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        #klarnainner {
+            max-width: 100%;
+        }
+        .minus {
+            width: 28%;
+        }
+    }
+    @media only screen and (max-width: 550px) {
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: 15%;
+            margin-top: 15%;
+            float: right;
+            display: block;
+            padding-bottom: 40px;
+            color: #1f457c;
+        }
+        #pwrap h1 {
+            font-size: 130%
+        }
+        .minus {
+            width: 35%;
+        }
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: 10%;
+        }
+        #klast #acc {
+            margin-left: 25%;
+        }
+
+    }
+    @media only screen and (max-width: 501px) {
+        .products {
+            margin-left: 5%;
+            width: 90%;
+        }
+        #prdcts .img {
+            margin-left: 0%;
+            display: block;
+            margin-top: 0%;
+            padding-bottom: 20%;
+        }
+        .minus {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            width: 70%;
+            margin-top: 70px;
+        }
+        .pro-name {
+            margin-top: 30%;
+        }
+        .sum {
+            margin: 0!important;
+            padding: 0;
+            padding-left: 5%;
+        }
+        .number {
+            padding-left: 5%;
+            display: inline;
+        }
+        .numbers {
+            margin-left: 0%;
+        }
+        #c13 .img {
+            margin-left: 0%;
+            display: block;
+            margin-top: -50%;
+            padding-bottom: 20%;
+        }
+
+
+    }
+    @media only screen and (max-width: 470px) {
+        #klast #acc {
+            margin-left: 0%;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        #vinner {
+            top: 10%;
+        }
+        #vinner img {
+            display: block;
+            padding-top: 20px;
+            top: 10%;
+            margin-left: 40%;
+            max-width: 20%;
+        }
+        #crd {
+            padding-left: 5%;
+        }
+        #crd img {
+            margin-left: 10px;
+            display: inline-block;
+            max-height: 30px;
+        }
+        #crd input {
+            max-width: 40%;
+        }
+        #exp {
+            padding-left: 5%;
+        }
+        #exp img {
+            margin-left: 10px;
+            max-height: 30px;
+            display: inline-block;
+        }
+        #exp input {
+            width: 7%;
+        }
+        #vtotal {
+            margin-left: -0%;
+            width: 100%;
+        }
+        #plog {
+            max-width: 300px;
+            width: 100%;
+            margin-left: 0%;
+            right: 7%;
+        }
+        #bx1 button {
+            margin-right: 30%;
+            width: 70%;
+        }
+        #bx1 p {
+            margin-right: 30%;
+            width: 70%;
+        }
+
+        #cred {
+            margin-left: -10px;
+        }
+        #betal {
+            margin-left: -10px;
+        }
+    }
+    @media only screen and (max-width: 439px) {
+        .pro-name {
+            margin-top: 30%;
+        }
+        .number {
+            display: inline;
+            margin-left: 0%;
+        }
+        .numbers {
+            margin-left: 2%;
+            padding-left: 5%;
+        }
+        .artnr {
+            position: absolute;
+            left: 39%;
+            bottom: 0px;
+            padding-bottom: 20px;
+        }
+        .artfill {
+            position: absolute;
+            left: 25%;
+            bottom: 20px;
+            padding-bottom: 20px;
+        }
+        .sum {
+            margin-left: 5%!important;
+        }
+    }
+    @media only screen and (max-width: 425px) {
+        #plog {
+            max-width: 330px;
+            width: 100%;
+            left: 0%;
+        }
+ 
+        #dhlfrakt {
+            margin-top: 60px;
+        }
+        #bnkid {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 410px) {
+        .pro-name {
+            margin-top: 30%;
+        }
+        .number {
+            padding-bottom: 0%;
+        }
+        #cred {
+            margin-left: -10px;
+        }
+        #betal {
+            margin-left: -10px;
+        }
+    }
+    @media only screen and (max-width: 387px) {
+        #pprice {
+            margin-top: 10px;
+        }
+        #pwrap i {
+            margin-top: 10px;
+        }
+        #bx1 button {
+            margin-right: 20%;
+            width: 90%;
+        }
+        #bx1 p {
+            margin-right: 15%;
+            width: 90%;
+        }
+        #klast #acc {
+            margin-left: 15%;
+            margin-top: 20px;
+        }
+        #klast img {
+            display: block;
+            margin-top: 10px;
+        }
+        .img {
+            margin-left: 35%;
+            display: block;
+            margin-top: -54%;
+            padding-bottom: 20%;
+        }
+
+    }
+    @media only screen and (max-width: 370px) {
+        .products .sum {
+            margin-left: 20%;
+        }
+        .cost {
+            padding-right: 30px;
+        }
+    }
+    @media only screen and (max-width: 350px) {
+        #vinner label {
+            font-size: 90%;
+        }
+    }
+    @media only screen and (max-width: 340px) {
+        #klast #acc {
+            margin-left: 5%;
+            margin-top: 20px;
+        }
+        .sum {
+            margin-left: 20%;
+        }
+        #dhlfrakt {
+            margin-top: 75px;
+        }
+    }
+
+    @media only screen and (max-width: 310px) {
+        .products .sum {
+            margin-left: 10%;
+        }
+    }

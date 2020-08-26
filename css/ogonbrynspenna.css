@@ -1,0 +1,243 @@
+/* Hide from startpage */
+
+.foundation {
+    display: none;
+}
+
+.puder {
+    display: none;
+}
+
+.sminkborste {
+    display: none;
+}
+
+.oga {
+    display: none;
+}
+
+.bas {
+    display: none;
+}
+
+.har {
+    display: none;
+}
+
+.lappar {
+    display: none;
+}
+
+.lappglans {
+    display: none;
+}
+
+.dipliner {
+    display: none;
+}
+
+.ogonbrynspenna {
+    display: inline;
+}
+
+#shop-bar {
+    margin-top: 30px;
+}
+
+#header {
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
+#menu {
+    top: 0px;
+}
+
+#saved {
+    top: 0px;
+}
+
+#out {
+    margin-left: 16vw;
+}
+
+#sign {
+    margin-left: 40vw;
+}
+
+#sign button {
+    border: none;
+}
+
+#r-account {
+    margin-left: 40vw;
+}
+
+.dropbkg {
+    width: 100vw;
+    margin: auto;
+    z-index: 4;
+    position: absolute;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.dropinner {
+    max-width: 1169px;
+    margin: auto;
+    margin-top: -65px;
+    padding-top: 50px;
+    background: black;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    opacity: 0;
+    z-index: 4;
+}
+
+#wrapper {
+    z-index: 8;
+}
+
+#top {
+    z-index: 8;
+}
+
+#top-bar {
+    z-index: 8;
+}
+
+#shop-bar {
+    z-index: 8;
+}
+
+#wraps {
+    max-height: 100vh;
+    z-index: 4;
+    margin-top: -10px;
+    padding-bottom: 150px;
+    background: black;
+    width: 100vw;
+}
+
+#vtotal h2 {
+    margin-left: 10vw;
+}
+
+#vinner {
+    margin-top: 20vh;
+}
+
+#vchkt button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    height: 100%;
+}
+
+#aavb button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    height: 100%;
+}
+
+#content-product {
+    display: none;
+}
+
+#content {
+    margin-top: 0vh;
+}
+
+#banner1 {
+    margin-top: 230px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    clear: both;
+    float: none;
+}
+
+@media only screen and (max-width: 1800px) {
+    #header {
+        margin-top: 0px;
+    }
+    #top {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #header {
+        margin-top: 20px;
+        width: 150%;
+        margin-left: -25%;
+    }
+    #top {
+        padding: 0;
+        margin: 0;
+    }
+    #top-bar {
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    #wraps {
+        margin-left: 15%;
+        height: 2vh;
+    }
+    #container{
+        top: 0;
+        margin-top: -80px;
+            }
+}
+
+@media only screen and (max-width: 1050px) {
+    #wraps {
+        height: 2vh;
+    }
+    #top {
+        z-index: 501;
+    }
+    #menu {
+        top: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #header {
+        margin-top: 20px;
+        width: 200%;
+        margin-left: -50%;
+    }
+    #wraps {
+        margin-left: 25%;
+        height: 2vh;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #header {
+        margin-top: 30px;
+    }
+    #top {
+        padding: 0;
+        margin: 0;
+    }
+    #top-bar {
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    #logo {
+        margin-left: 35vw;
+    }
+    #wraps {
+        height: 0vh;
+    }
+}
+

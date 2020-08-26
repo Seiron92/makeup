@@ -1,0 +1,1525 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rebecca Seiron" />
+  <title>Svampar</title>
+  <link href="css/css.css" rel="stylesheet" type="text/css" />
+  <link href="css/checkout.css" rel="stylesheet" type="text/css" />
+  <link href="css/account.css" rel="stylesheet" type="text/css" />
+  <link href="css/svampar.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/close.png" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/loading.gif" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/next.png" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/prev.png" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+  <!-- Kod för ikon på flik och titel på sidan -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <script src="jquery-3.3.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet">
+</head>
+<body>
+    <div id="url"></div>
+    <div id="container">
+        <nav id="smallmenu" >
+            <div id="menusToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menus">
+                    <li id="signin2"></li>
+                        <li class="big" id="account2">Mitt konto </li>
+                        <li class="big" id="signs2">Logga in /</li> 
+                        <li class="big" id="create2">Skapa konto</li>
+                        <li class="big" id="signout2">Logga ut</li>
+                 <li id="bs2x" >Bas</li>
+                      <li><a id="bs2" href="bas.html">Alla basprodukter</a></li>
+                      <li><a   id="bs2a" href="concealer.html">Conceraler</a></li>
+                  <li><a id="bs2b" href="foundation.html">Foundation</a></li>
+                  <li><a  id="bs2c" href="primer.html">Primer</a></li>
+                  <li><a id="bs2d" href="puder.html">Puder</a></li>
+                  <li><a id="bs2e" href="settingspray.html">Settingspray</a></li>
+                  <li id="lp2x" >Läppar</li>
+                      <li><a class="lp2" href="lappar.html">Alla läpprodukter</a></li>
+                      <li><a class="lp2" href="lappglans.html">Läppglans</a></li>
+                      <li><a class="lp2" href="lappenna.html">Läppenna</a></li>
+                      <li><a class="lp2" href="Lappstifts.html">Läppstift</a></li>
+                      <li id="op2x" >Ögon</li>
+                      <li><a class="op2" href="ogon.html">Alla ögonprodukter</a></li>
+                      <li><a class="op2" href="eyeliner.html">Eyeliner</a></li>
+                      <li><a class="op2" href="mascara.html">Mascara</a></li>
+                      <li><a class="op2" href="pincett.html">Pincett</a></li>
+                  <li><a class="op2" href="ogonbrynspenna.html">Ögonbrynspenna</a></li>
+                  <li><a class="op2" href="ogonskugga.html">Ögonskugga</a></li>
+                  <li id="sp2x" >Sminkpenslar</li>
+                      <li><a class="sp2" href="sminkpenslar.html"> Alla Sminkpenslar</a></li>
+                      <li><a class="sp2" href="ansiktspenslar.html">Penslar för bas</a></li>
+                      <li><a class="sp2" href="ogonpenslar.html">Penslar för ögonen</a></li>
+                      <li><a class="sp2" href="svampar.html">Svampar</a></li>
+                      <li id="hp2x" >Hår</li>
+                      <li><a class="hp2" href="har.html">Alla hårprodukter</a></li>
+                      <li><a class="hp2" href="balsam.html">Balsam</a></li>
+                      <li><a class="hp2" href="spray.html">Hårspray</a></li>
+                      <li><a class="hp2" href="olja.html">Hårolja</a></li>
+                      <li><a class="hp2" href="schampo.html">Schampo</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div id="top">
+            <div id="top-bar"><a href="index.html" id="logo"><img alt="Logotyp" src="images/logo.svg"></a>
+                <div id="signin">
+                    <p id="signs">Logga in /</p>
+                    <p id="create">Skapa konto</p>
+                    <p id="account">Mitt konto </p>
+                    <p id="signout">Logga ut</p>
+                </div>
+                <div id="shop-bar">
+                        <div id="shop-icons"><i id="hearttop" class="far fa-heart"></i> <i id="shop-icon" class="far fa-credit-card"></i><div id="updates"></div></div>
+                </div><!-- Shop-bar-->
+            </div><!-- Top-bar-->
+        </div><!-- Top-->
+        <div id="swr">
+            <div id="saved">
+                <button id="sclose">x</button>
+                <div id="swrapper">
+                    <div class="t1">
+                        <!--   <div class="simage"><img src="images/lappstift.jpg" alt="produktbild"> -->
+                        <!--    </div> simage-->
+                        <!--     <div class="sdesc">
+       <h1>Läppstift</h1>
+           <h2>Antal: 2st</h2>
+        </div>sdesc-->
+                    </div>
+                </div>
+                <!--swrapper-->
+                <div id="stotal">
+                </div>
+                <!--stotal-->
+                <div id="acction">
+                    <button id="empty">Töm Önskelistan</button>
+                    <button class="move">Flytta till kassan</button>
+                </div>
+                <!--Action-->
+            </div>
+            <!--Saved-->
+        </div>
+        <!--svr-->
+        <div id="header"><img src="images/header.jpg" alt="Illustrated woman in black dress" />
+          <div id="wraps"> <div class="wrapper" id="wrapper">
+                <img id="arrow1" src="images/arrow-down.svg" alt="Arrow down" />
+                <img id="arrow2" src="images/arrow-down.svg" alt="Arrow down" />
+            </div>
+            <!--wrapper-->
+        </div>
+        <!--header-->
+        <div id="cbkg">
+            <div id="cwrapper">
+                <div class="c1">
+                  <!--  <div class="cimage"><img src="images/lappstift.jpg" alt="produktbild">
+                    </div>
+                    <div class="cdesc">
+                        <h1>Läppstift</h1>
+                        <h2>Antal: 2st</h2>
+                        <h2>Á Pris: 99kr</h2>
+                    </div>-->
+                    <!--svr-->
+                </div>
+            </div>
+        </div>
+        <!--cnkg-->
+        <div id="cbkg2">
+            <div id="cwrapper2">
+                <div class="c12">
+                  <!--  <div class="cimage"><img src="images/lappstift.jpg" alt="produktbild">
+                    </div>
+                    <div class="cdesc">
+                        <h1>Läppstift</h1>
+                        <h2>Antal: 2st</h2>
+                        <h2>Á Pris: 99kr</h2>
+                    </div>-->
+                    <!--svr-->
+                </div>
+            </div>
+        </div>
+        <!--cnkg-->
+        </div><!--wraps-->
+            <!--SIGN IN / REGISTER-->
+            <div id="sign-in">
+                <div id="sign">
+                    <p id="close">x</p>
+                    <label id="aname">Användarnamn: </label> <input id="usernameS" type="text">
+                    <label id="alos"> Lösenord: </label> <input id="passwordS" type="password">
+                    <div id="message"></div>
+                    <button id="forgot">Glömt lösenord?</button>
+                    <div id="fmail">
+                        <label>E-mail: </label> <input id="fMailInput" type="email">
+                        <button id="send">Skicka</button>
+                    </div>
+                    <button id="btnsign">Logga in</button>
+                </div>
+                <!--sign-->
+            </div>
+            <!--Sign in-->
+            <div id="register">
+                <div id="r-account">
+                    <p id="r-close">x</p>
+                    <label>Förnamn:</label> <input id="fname" type="text">
+                    <label>Efternamn:</label> <input id="lname" type="text">
+                    <label>Gata:</label> <input id="gta" type="text">
+                    <label>Postnummer:</label> <input id="ptnr" type="text">
+                    <label>Stad:</label> <input id="std" type="text">
+                    <label>Telefonnummer:</label> <input id="tlnr" type="text">
+                    <label>E-mail:</label> <input id="email" type="email">
+                    <label>Önskat användarnamn: </label> <input id="username" type="text">   
+                    <label>Önskat lösenord: </label> <input id="password" type="password">
+                    <p id="m4"></p>
+                    <label>Bekräfta lösenord: </label> <input id="password2" type="password">
+                    <button id="crt">Skapa konto</button>
+                  </div>
+                <!--r-account-->
+            </div>
+            <!--register-->
+            <!-- CHECKOUT-->
+            <div id="check-out">
+                <div id="out">
+                    <p id="close-x">x</p>
+                    <h1>Dina uppgifter</h1>
+                    <form id="chkform" method="post" action="ordermails.php" enctype="multipart/form-data">
+                        <label>Förnamn:</label> <input id="fnames" name="fnames " type="text">
+                        <label>Efternamn:</label> <input id="lnames" name="lnames " type="text">
+                        <label>Gata:</label> <input id="gata" name="gata" type="text">
+                        <label>Postnummer:</label> <input id="postnummer" name="postnummer " type="text">
+                        <label>Stad:</label> <input id="stad" name="stad" type="text">
+                        <label>E-mail:</label> <input id="emailsc" name="emailsc" type="email">
+                        <label>Telefon:</label> <input id="telefon" name="telefon" type="text">
+                    </form>
+                    <div id="prdcts">
+                        <!--products
+              <div id="products">
+                  <h3 id="pro-name"></h3>
+                  <h4 id="under">Rött läppstift</div>
+                  <div id="img"></div>
+                  <p id="sum"></p>
+                  <p id="number">Antal:</p> <input id="numbers" value=" x" type="text">
+                  <p id="add">+</p>
+                  <p id="remove">-</p>
+                  <p id="love"><i class="far fa-heart"></i></p>
+              </div><prdcts-->
+                    </div>
+                    <div id="conf2"></div>
+                    <div id="removeall">
+                        <p id="tabort">Töm kassan</p>
+                    </div><!--removeall-->
+                    <div id="cred">
+                        <h3>Välj fraktalternativ</h3>
+                        <div id="postfrakt">
+                            <img src="images/postnord.png" alt="PostNord logotyp"> <input type="checkbox"
+                                name="PostNord" class="box1" id="postnord">
+                            <p class="shiptext">Leverans, 1-2 dagar</p><p id="notFree">, 39kr</p>
+                        </div>
+                        <div id="dhlfrakt">
+                            <img src="images/dhl.png" alt="DHL logotyp"><input type="checkbox"
+                                class="box1" id="dhl">
+                            <p class="shiptext">Hemleverans, 1-2 dagar</p>
+                            <p class="cost">69kr</p>
+                        </div>
+                    </div>
+                    <!--cred-->
+                    <div id="betal">
+                        <h3>Välj betalsätt</h3>
+                        <img src="images/visa.mastercard.png" alt="Visa och Mastercard"><label class="bet">Visa/Mastercard</label>
+                        <input class="box2" type="checkbox" id="visa">
+                        <br />
+                        <img src="images/paypal.png" alt="Paypal ikon"> <label class="bet">Paypal</label> <input class="box2"
+                            type="checkbox" id="paypal">
+                        <br />
+                        <img src="images/klarna.png" alt="Klarna ikon"> <label class="bet">Klarna faktura</label>
+                        <input class="box2" type="checkbox" id="klarna">
+                    </div>
+                    <!--betal-->
+                    <div id="last">
+                        <label>Rabattkod:</label> <input id="rabattkod" type="text"> <button id="rabatt">></button>
+                        <p id="rabattMsg"></p>
+                        <p id="tt1">Totalt:</p>
+                        <p id="total"></p>
+                        <p id="tt2">,00kr</p>
+                        <p id="disc"></p>
+                        <input id="checkout" name="skicka" type="submit" value="skicka">
+                    </div>
+                <!--last-->
+                <div id="not">
+                    <div id="krt">Totalt:</div>
+                    <div id="ifnot"></div>
+                    <div id="kr">,00kr</div>
+                    <div id="frkt"></div>
+    </div>
+                </div>
+                <!--out-->
+            </div>
+            <!--checkout-->
+<!--mycnt-->
+<div id="wish">
+    <div id="cbkg3">
+        <button id="myclose">x</button>
+        <div id="cwrapper3">
+          <div id="mybanner">
+            <img src="images/banner2.jpg" alt="banner"/>
+          </div>
+          <div id="mycntc">
+              <h1>Dina uppgifter</h1>
+              <form id="chkforms" method="post" action="ordermailsa.php" enctype="multipart/form-data">
+                  <label>Förnamn:</label> <input id="fnames2" name="fnames " type="text">
+                  <label>Efternamn:</label> <input id="lnames2" name="lnames " type="text">
+                  <label>Gata:</label> <input id="gata2" name="gata2" type="text">
+                  <label>Postnummer:</label> <input id="postnummer2" name="postnummer " type="text">
+                  <label>Stad:</label> <input id="stad2" name="stad2" type="text">
+                  <label>E-mail:</label> <input id="emailsc2" name="emailsc2" type="email">
+                  <label>Telefon:</label> <input id="telefon2" name="telefon2" type="text">
+              </form>
+          </div>
+            <div id="c13">
+              <h2>Min önskelista</h2>
+     <!--   <div class="cimage3"><img src="images/lappstift.jpg" alt="produktbild">
+                </div>
+                <div class="cdesc3">
+                    <h3>Läppstift</h3>
+                    <h3>Antal: 2st</h3>
+                    <h3>Á Pris: 99kr</h3>
+                </div>
+                svr-->
+            </div>
+            <div id="totalpris"></div>
+            <div id="buttons">
+            <button id="empty2">Töm önskelistan</button>
+            <button class="move2">Flytta till kassan</button>
+            </div>
+        </div>
+    </div>
+    <!--cnkg-->
+</div><!--whish-->
+            <div id="klarnafak">
+                <div id="klarnainner">
+                    <div id="bordertop">
+                        <p>BankId säkerhetsprogram - Legitimera</p> <button id="cls">x</button>
+                    </div>
+                    <div id="kwrapper">
+                        <h1> Skriv under med BankID</h1>
+                        <div id="topsec">
+                            <h2>Du skriver under hos:</h2>
+                            <h3>Smink AB</h3>
+                        </div>
+                        <div id="topsec2">
+                            <h3>Du skriver under följande:</h3>
+                            <div id="ram">
+                                <p>Inloggning Hembanken</p>
+                                <p>Med min elektroniska signatur bekräftar jag att jag vill logga in i Hembanken</p>
+                            </div>
+                        </div>
+                        <div id="tophalf">
+                            <h3>Vilket BankID vill du skriva under med?</h3>
+                            <img id="bnkid" src="images/bankidskarm.png" alt="BankID Ikon" />
+                            <select>
+                                <option id="nmne" value="idtype">Namn</option>
+                                <option value="idtype">
+                                    Annat konto - BankID på fil
+                                </option>
+                            </select>
+                            <p id="date">Giltigt t o m: 18 dec 2020</p>
+                        </div>
+                        <div id="bottomhalf">
+                            <form>
+                                <p>Lösenord:</p>
+                                <input id="lsn" type="password">
+                            </form>
+                        </div>
+                        <div id="klast">
+                            <img src="images/bankIDlogo.png" alt="BankID logotyp" />
+                            <button id="acc">Jag skriver under</button>
+                            <button id="avbryt">Avbryt</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Paypal-->
+            <div id="pbkg">
+                <div id="pinner">
+                    <div id="ptop">
+                        <p>Paypal Checkout</p>
+                        <button id="pclose">x</button>
+                    </div><!-- ptop-->
+                    <div id="ptopmiddle">
+                        <div id="pwrap">
+                            <h1>Smink AB</h1>
+                            <div id="pprice"> </div>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div><!-- pwrap-->
+                    </div><!-- ptopmiddle-->
+                    <div id="pcontainer">
+                        <p id="english">English</p>
+                        <p id="france">Français</p>
+                        <div id="innerp">
+                            <div id="rightsec">
+                                <img id="pp" src="images/paypal.png" alt="Paypal Logotyp" />
+                                <h2>New. Faster. Easier</h2>
+                                <div id="ptextbox">
+                                    <p> Welcome to the new PayPal checkout!
+                                        The security you rely on - now even faster
+                                        It's everything checkout should be.</p>
+                                </div><!-- ptextbox-->
+                                <img id="wallet" src="images/wallet.png" alt="Plånboksikon">
+                            </div><!-- rightsec-->
+                            <div id="plog">
+                                <h3>Log in to Paypal</h3>
+                                <form>
+                                <input id="plogin" type="text" placeholder="Email">
+                                <input id="ppass" type="password" placeholder="Password">
+                           </form>
+                           <button id="pout">Log in</button>
+                              </div><!-- plog-->
+                            <div id="pbtm">
+                                <div id="bx2">
+                                    <p id="fgt">Forgot your password?</p>
+                                </div>
+                                <div id="bx1">
+                                    <button id="guest">Check Out as a Guest</button>
+                                    <p id="dont">Don't have a PayPal account?</p>
+                                </div>
+                            </div> <!-- pbtm-->
+                        </div><!-- innerp-->
+                    </div><!-- pcontainer-->
+                </div><!-- pinner-->
+            </div><!-- pbkg-->
+            <!--VISA / MASTERCARD-->
+            <div id="vbkg">
+                <div id="vinner">
+                    <img src="images/visa.mastercard.png" alt="Visa/Mastercard Logotyp">
+                    <div id="crd">
+                        <label>Kortnummer:</label>
+                        <input id="cnummer" type="text"><img src="images/scardfront.png" alt="Kort framsida ikon">
+                    </div><!-- crd-->
+                    <div id="exp">
+                        <label>Utgångsdatum:</label>
+                        <input id="utg" type="text" placeholder="YY"> / <input id="utg2" placeholder="MM" type="text"><img
+                            src="images/scardback.png" alt="Kort baksida ikon">
+                    </div>
+                    <!--exp-->
+                    <div id="vtotal">
+                        <h2 id="vtotals">plaaceholder</h2>
+                    </div>
+                    <!--vtotal-->
+                    <div id="vchkt">
+                        <button id="conf">Gå vidare</button>
+                    </div>
+                    <!--vcht-->
+                    <div id="aavb">
+                        <button id="avb">Avbryt</button>
+                    </div>
+                    <!--aavb-->
+                </div><!-- vinner-->
+            </div> <!-- vbkg-->
+            <!--Sucess message-->
+            <div id="sbkg">
+                <div id="sinner">
+                    <h2>Tack för ditt köp!</h2>
+                    <h3>En orderbekräftelse har skickats till din epost</h3>
+                </div>
+                <!--sinner-->
+            </div>
+            <!--sbkg-->
+            <div id="menu">
+                    <div id="show">
+                        <form autocomplete="off" action="/action_page.php">
+                            <div class="autocomplete" id="test">
+                                <input type="text" id="search" placeholder="Sök.."> <i class="fas fa-search" id="searchsubmit"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a id="bs" href="bas.html">Bas</a></li>
+                            <li><a id="lp" href="lappar.html">Läppar</a></li>
+                            <li><a id="op" href="ogon.html">Ögon</a></li>
+                            <li><a id="sp" href="sminkpenslar.html">Sminkpenslar</a></li>
+                            <li><a id="hp" href="har.html">Hår</a></li>
+                        </ul>
+                    </nav>
+                    <!--nav-->
+                    <div id="middle"></div>
+                </div>
+                <!--menu-->
+<!--PRODUCTS-->
+<div id="banner1">
+   <h1>Svampar</h1>
+</div>
+<div id="content">
+        <div class="product lappstift lappar">
+                <a href="lipstick-1.html">
+                    <div class="product-image">
+                        <img src="images/lipstick-1-front-black.jpg" onmouseover="this.src='images/lipstick-1-front.jpg'"
+                            onmouseout="this.src='images/lipstick-1-front-black.jpg'"  alt="Produktbild läppstift" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppstift Old pink, Make Up Store</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappstift lappar">
+                <a href="lipstick-2.html">
+                    <div class="product-image">
+                        <img src="images/lipstick-2-front-black.jpg" onmouseover="this.src='images/lipstick-2-front.jpg'"
+                            onmouseout="this.src='images/lipstick-2-front-black.jpg'"  alt="Produktbild läppstift" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppstift Matte blossom, Make Up Store</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappstift lappar">
+                <a href="lipstick-3.html">
+                    <div class="product-image">
+                        <img src="images/lipstick-3-front-black.jpg" onmouseover="this.src='images/lipstick-3-front.jpg'"
+                            onmouseout="this.src='images/lipstick-3-front-black.jpg'"  alt="Produktbild läppstift" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppstift Lavender, Make Up Store</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappenna lappar">
+                <a href="penn-1.html">
+                    <div class="product-image">
+                        <img src="images/penn-1-front-black.jpg" onmouseover="this.src='images/penn-1-front.jpg'"
+                            onmouseout="this.src='images/penn-1-front-black.jpg'"  alt="Produktbild läppenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppenna ruby 04</h4>
+                        <h5 class="price">65kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappenna lappar">
+                <a href="penn-2.html">
+                    <div class="product-image">
+                        <img src="images/penn-2-front-black.jpg" onmouseover="this.src='images/penn-2-front.jpg'"
+                            onmouseout="this.src='images/penn-2-front-black.jpg'"  alt="Produktbild läppenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppenna Hot red 041</h4>
+                        <h5 class="price">65kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappenna lappar">
+                <a href="penn-3.html">
+                    <div class="product-image">
+                        <img src="images/penn-3-front-black.jpg" onmouseover="this.src='images/penn-3-front.jpg'"
+                            onmouseout="this.src='images/penn-3-front-black.jpg'"  alt="Produktbild läppenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppenna Cerise 042</h4>
+                        <h5 class="price">65kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas">
+                <a href="foundation-1.html">
+                    <div class="product-image">
+                        <img src="images/foundation-1-front-black.jpg" onmouseover="this.src='images/foundation-1-front.jpg'"
+                            onmouseout="this.src='images/foundation-1-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Clinique foundation 01</h4>
+                        <h5 class="price">325kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas">
+                <a href="foundation-2.html">
+                    <div class="product-image">
+                        <img src="images/foundation-2-front-black.jpg" onmouseover="this.src='images/foundation-2-front.jpg'"
+                            onmouseout="this.src='images/foundation-2-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Clinique foundation 03</h4>
+                        <h5 class="price">325kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas visa">
+                <a href="foundation-3.html">
+                    <div class="product-image">
+                        <img src="images/foundation-3-front-black.jpg" onmouseover="this.src='images/foundation-3-front.jpg'"
+                            onmouseout="this.src='images/foundation-3-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Clinique foundation 04</h4>
+                        <h5 class="price">325kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas">
+                <a href="foundation-4.html">
+                    <div class="product-image">
+                        <img src="images/foundation-4-front-black.jpg" onmouseover="this.src='images/foundation-4-front.jpg'"
+                            onmouseout="this.src='images/foundation-4-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Dior foundation 01</h4>
+                        <h5 class="price">515kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas visa">
+                <a href="foundation-5.html">
+                    <div class="product-image">
+                        <img src="images/foundation-5-front-black.jpg" onmouseover="this.src='images/foundation-5-front.jpg'"
+                            onmouseout="this.src='images/foundation-5-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Dior foundation 02</h4>
+                        <h5 class="price">515kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product foundation bas">
+                <a href="foundation-6.html">
+                    <div class="product-image">
+                        <img src="images/foundation-6-front-black.jpg" onmouseover="this.src='images/foundation-6-front.jpg'"
+                            onmouseout="this.src='images/foundation-6-front-black.jpg'"  alt="Produktbild foundation" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Dior foundation 08</h4>
+                        <h5 class="price">515kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product puder bas">
+                <a href="puder-1.html">
+                    <div class="product-image">
+                        <img src="images/puder-1-front-black.jpg" onmouseover="this.src='images/puder-1-front.jpg'"
+                            onmouseout="this.src='images/puder-1-front-black.jpg'"  alt="Produktbild puder" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Puder 102, Maybelline</h4>
+                        <h5 class="price">89kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product puder bas visa">
+                <a href="puder-2.html">
+                    <div class="product-image">
+                        <img src="images/puder-2-front-black.jpg" onmouseover="this.src='images/puder-2-front.jpg'"
+                            onmouseout="this.src='images/puder-2-front-black.jpg'"  alt="Produktbild puder" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Puder 104, Maybelline</h4>
+                        <h5 class="price">89kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product puder bas">
+                <a href="puder-3.html">
+                    <div class="product-image">
+                        <img src="images/puder-3-front-black.jpg" onmouseover="this.src='images/puder-3-front.jpg'"
+                            onmouseout="this.src='images/puder-3-front-black.jpg'"  alt="Produktbild puder" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Puder 106, Maybelline</h4>
+                        <h5 class="price">89kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste svamp">
+                <a href="svamp-1.html">
+                    <div class="product-image">
+                        <img src="images/svamp-1-front-black.jpg" onmouseover="this.src='images/svamp-1-front.jpg'"
+                            onmouseout="this.src='images/svamp-1-front-black.jpg'"  alt="Produktbild svamp" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Svamp beige</h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste svamp">
+                <a href="svamp-2.html">
+                    <div class="product-image">
+                        <img src="images/svamp-2-front-black.jpg" onmouseover="this.src='images/svamp-2-front.jpg'"
+                            onmouseout="this.src='images/svamp-2-front-black.jpg'"  alt="Produktbild svamp" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Svamp rosa</h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste svamp">
+                <a href="svamp-3.html">
+                    <div class="product-image">
+                        <img src="images/svamp-3-front-black.jpg" onmouseover="this.src='images/svamp-3-front.jpg'"
+                            onmouseout="this.src='images/svamp-3-front-black.jpg'"  alt="Produktbild svamp" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Svamp blå</h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-1.html">
+                    <div class="product-image">
+                        <img src="images/brush-1-front-black.jpg" onmouseover="this.src='images/brush-1-front.jpg'"
+                            onmouseout="this.src='images/brush-1-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Foundationpensel 01</h4>
+                        <h5 class="price">139kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-4.html">
+                    <div class="product-image">
+                        <img src="images/brush-4-front-black.jpg" onmouseover="this.src='images/brush-4-front.jpg'"
+                            onmouseout="this.src='images/brush-4-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Highlightpensel 04</h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-5.html">
+                    <div class="product-image">
+                        <img src="images/brush-5-front-black.jpg" onmouseover="this.src='images/brush-5-front.jpg'"
+                            onmouseout="this.src='images/brush-5-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Concealerpensel 05</h4>
+                        <h5 class="price">139kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-7.html">
+                    <div class="product-image">
+                        <img src="images/brush-7-front-black.jpg" onmouseover="this.src='images/brush-7-front.jpg'"
+                            onmouseout="this.src='images/brush-7-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Puderpensel 07</h4>
+                        <h5 class="price">169kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-8.html">
+                    <div class="product-image">
+                        <img src="images/brush-8-front-black.jpg" onmouseover="this.src='images/brush-8-front.jpg'"
+                            onmouseout="this.src='images/brush-8-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Concealerpensel 08</h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste ansikte">
+                <a href="brush-9.html">
+                    <div class="product-image">
+                        <img src="images/brush-9-front-black.jpg" onmouseover="this.src='images/brush-9-front.jpg'"
+                            onmouseout="this.src='images/brush-9-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Foundationpensel (liten) 09</h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-2.html">
+                    <div class="product-image">
+                        <img src="images/brush-2-front-black.jpg" onmouseover="this.src='images/brush-2-front.jpg'"
+                            onmouseout="this.src='images/brush-2-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Sminkpensel 02</h4>
+                        <h5 class="price">129kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-3.html">
+                    <div class="product-image">
+                        <img src="images/brush-3-front-black.jpg" onmouseover="this.src='images/brush-3-front.jpg'"
+                            onmouseout="this.src='images/brush-3-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Sminkpensel 03</h4>
+                        <h5 class="price">129kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-6.html">
+                    <div class="product-image">
+                        <img src="images/brush-6-front-black.jpg" onmouseover="this.src='images/brush-6-front.jpg'"
+                            onmouseout="this.src='images/brush-6-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonskuggsapplikator 06</h4>
+                        <h5 class="price">29kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-10.html">
+                    <div class="product-image">
+                        <img src="images/brush-10-front-black.jpg" onmouseover="this.src='images/brush-10-front.jpg'"
+                            onmouseout="this.src='images/brush-10-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonskuggspensel 10</h4>
+                        <h5 class="price">89kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-11.html">
+                    <div class="product-image">
+                        <img src="images/brush-11-front-black.jpg" onmouseover="this.src='images/brush-11-front.jpg'"
+                            onmouseout="this.src='images/brush-11-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonbrynspensel 11</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-12.html">
+                    <div class="product-image">
+                        <img src="images/brush-12-front-black.jpg" onmouseover="this.src='images/brush-12-front.jpg'"
+                            onmouseout="this.src='images/brush-12-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Creasebrush 12</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-13.html">
+                    <div class="product-image">
+                        <img src="images/brush-13-front-black.jpg" onmouseover="this.src='images/brush-13-front.jpg'"
+                            onmouseout="this.src='images/brush-13-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonskuggspensel 13</h4>
+                        <h5 class="price">114kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-14.html">
+                    <div class="product-image">
+                        <img src="images/brush-14-front-black.jpg" onmouseover="this.src='images/brush-14-front.jpg'"
+                            onmouseout="this.src='images/brush-14-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonskuggspensel 14</h4>
+                        <h5 class="price">125kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product sminkborste oga ogonpenslar">
+                <a href="brush-15.html">
+                    <div class="product-image">
+                        <img src="images/brush-9-front-black.jpg" onmouseover="this.src='images/brush-9-front.jpg'"
+                            onmouseout="this.src='images/brush-9-front-black.jpg'"  alt="Produktbild sminkpensel" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonbrynspelsel 15</h4>
+                        <h5 class="price">195kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product eyeliner oga">
+                <a href="eyeliner-1.html">
+                    <div class="product-image">
+                        <img src="images/eyeliner-1-front-black.jpg" onmouseover="this.src='images/eyeliner-1-front.jpg'"
+                            onmouseout="this.src='images/eyeliner-1-front-black.jpg'"  alt="Produktbild eyeliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Eyeliner black, MAC</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product eyeliner oga">
+                <a href="eyeliner-2.html">
+                    <div class="product-image">
+                        <img src="images/eyeliner-2-front-black.jpg" onmouseover="this.src='images/eyeliner-2-front.jpg'"
+                            onmouseout="this.src='images/eyeliner-2-front-black.jpg'"  alt="Produktbild eyeliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Eyeliner dark brown, MAC</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product eyeliner oga">
+                <a href="eyeliner-3.html">
+                    <div class="product-image">
+                        <img src="images/eyeliner-3-front-black.jpg" onmouseover="this.src='images/eyeliner-3-front.jpg'"
+                            onmouseout="this.src='images/eyeliner-3-front-black.jpg'"  alt="Produktbild eyeliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Eyeliner blue, MAC</h4>
+                        <h5 class="price">155kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product dipliner oga visa">
+                <a href="dipliner-1.html">
+                    <div class="product-image">
+                        <img src="images/dipliner-1-front-black.jpg" onmouseover="this.src='images/dipliner-1-front.jpg'"
+                            onmouseout="this.src='images/dipliner-1-front-black.jpg'"  alt="Produktbild dipliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">MaxFactor Dipliner, black</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product dipliner oga">
+                <a href="dipliner-2.html">
+                    <div class="product-image">
+                        <img src="images/dipliner-2-front-black.jpg" onmouseover="this.src='images/dipliner-2-front.jpg'"
+                            onmouseout="this.src='images/dipliner-2-front-black.jpg'"  alt="Produktbild dipliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">MaxFactor Dipliner, blå</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product dipliner oga">
+                <a href="dipliner-3.html">
+                    <div class="product-image">
+                        <img src="images/dipliner-3-front-black.jpg" onmouseover="this.src='images/dipliner-3-front.jpg'"
+                            onmouseout="this.src='images/dipliner-3-front-black.jpg'"  alt="Produktbild dipliner" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">MaxFactor Dipliner, röd</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product primer anti-shine bas visa">
+                <a href="primer-1.html">
+                    <div class="product-image">
+                        <img src="images/primer-1-front-black.jpg" onmouseover="this.src='images/primer-1-front.jpg'"
+                            onmouseout="this.src='images/primer-1-front-black.jpg'"  alt="Produktbild primer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Smashbox primer Adjust, green</h4>
+                        <h5 class="price">295kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product primer anti-shine bas">
+                <a href="primer-2.html">
+                    <div class="product-image">
+                        <img src="images/primer-2-front-black.jpg" onmouseover="this.src='images/primer-2-front.jpg'"
+                            onmouseout="this.src='images/primer-2-front-black.jpg'"  alt="Produktbild primer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Smashbox primer Adjust, plue</h4>
+                        <h5 class="price">295kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product primer anti-shine bas">
+                <a href="primer-3.html">
+                    <div class="product-image">
+                        <img src="images/primer-3-front-black.jpg" onmouseover="this.src='images/primer-3-front.jpg'"
+                            onmouseout="this.src='images/primer-3-front-black.jpg'"  alt="Produktbild primer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Smashbox primer Adjust, purple</h4>
+                        <h5 class="price">295kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonskugga oga">
+                <a href="skugga-1.html">
+                    <div class="product-image">
+                        <img src="images/skugga-1-front-black.jpg" onmouseover="this.src='images/skugga-1-front.jpg'"
+                            onmouseout="this.src='images/skugga-1-front-black.jpg'"  alt="Produktbild ögonskugga" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Nude Tude Naughty Eyeshadow</h4>
+                        <h5 class="price">289kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonskugga glitter oga">
+                <a href="skugga-2.html">
+                    <div class="product-image">
+                        <img src="images/skugga-2-front-black.jpg" onmouseover="this.src='images/skugga-2-front.jpg'"
+                            onmouseout="this.src='images/skugga-2-front-black.jpg'"  alt="Produktbild ögonskugga" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Urban Decay Naked 3 Palette</h4>
+                        <h5 class="price">449kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonskugga oga">
+                <a href="skugga-3.html">
+                    <div class="product-image">
+                        <img src="images/skugga-3-front-black.jpg" onmouseover="this.src='images/skugga-3-front.jpg'"
+                            onmouseout="this.src='images/skugga-3-front-black.jpg'"  alt="Produktbild ögonskugga" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">LOREAL PARIS La Palette Nude, Beige</h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product concealer bas">
+                <a href="concealer-2.html">
+                    <div class="product-image">
+                        <img src="images/concealer-2-front-black.jpg" onmouseover="this.src='images/concealer-2-front.jpg'"
+                            onmouseout="this.src='images/concealer-2-front-black.jpg'"  alt="Produktbild concealer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Concealer Ivory, NYX
+                        </h4>
+                        <h5 class="price">75kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product concealer bas">
+                <a href="concealer-3.html">
+                    <div class="product-image">
+                        <img src="images/concealer-3-front-black.jpg" onmouseover="this.src='images/concealer-3-front.jpg'"
+                            onmouseout="this.src='images/concealer-3-front-black.jpg'"  alt="Produktbild concealer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Concealer Natural, NYX
+                        </h4>
+                        <h5 class="price">75kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product concealer bas">
+                <a href="concealer-4.html">
+                    <div class="product-image">
+                        <img src="images/concealer-4-front-black.jpg" onmouseover="this.src='images/concealer-4-front.jpg'"
+                            onmouseout="this.src='images/concealer-4-front-black.jpg'"  alt="Produktbild concealer" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Concealer Medium, NYX
+                        </h4>
+                        <h5 class="price">75kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product harspray har">
+                <a href="harspray-1.html">
+                    <div class="product-image">
+                        <img src="images/harspray-1-front-black.jpg" onmouseover="this.src='images/harspray-1-front.jpg'"
+                            onmouseout="this.src='images/harspray-1-front-black.jpg'"  alt="Produktbild hårspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårspray Extra strong grön, Wella
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product harspray har">
+                <a href="harspray-2.html">
+                    <div class="product-image">
+                        <img src="images/harspray-2-front-black.jpg" onmouseover="this.src='images/harspray-2-front.jpg'"
+                            onmouseout="this.src='images/harspray-2-front-black.jpg'"  alt="Produktbild hårspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårspray Extra strong rosa, Wella
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product harspray har">
+                <a href="harspray-3.html">
+                    <div class="product-image">
+                        <img src="images/harspray-3-front-black.jpg" onmouseover="this.src='images/harspray-3-front.jpg'"
+                            onmouseout="this.src='images/harspray-3-front-black.jpg'"  alt="Produktbild hårspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårspray Extra strong lila, Wella
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product olja har">
+                <a href="olja-1.html">
+                    <div class="product-image">
+                        <img src="images/olja-1-front-black.jpg" onmouseover="this.src='images/olja-1-front.jpg'"
+                            onmouseout="this.src='images/olja-1-front-black.jpg'"  alt="Produktbild hårolja" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårolja blå healing, Lánza</h4>
+                        <h5 class="price">159kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product olja har">
+                <a href="olja-2.html">
+                    <div class="product-image">
+                        <img src="images/olja-2-front-black.jpg" onmouseover="this.src='images/olja-2-front.jpg'"
+                            onmouseout="this.src='images/olja-2-front-black.jpg'"  alt="Produktbild hårolja" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårolja röd healing, Lánza</h4>
+                        <h5 class="price">159kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product olja har">
+                <a href="olja-3.html">
+                    <div class="product-image">
+                        <img src="images/olja-3-front-black.jpg" onmouseover="this.src='images/olja-3-front.jpg'"
+                            onmouseout="this.src='images/olja-3-front-black.jpg'"  alt="Produktbild hårolja" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Hårolja lila healing, Lánza</h4>
+                        <h5 class="price">159kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="schampo-1.html">
+                    <div class="product-image">
+                        <img src="images/schampo-1-front-black.jpg" onmouseover="this.src='images/schampo-1-front.jpg'"
+                            onmouseout="this.src='images/schampo-1-front-black.jpg'"  alt="Produktbild schampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Be Fabulous Recovery Shampoo, Revlon
+                        </h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="schampo-2.html">
+                    <div class="product-image">
+                        <img src="images/schampo-2-front-black.jpg" onmouseover="this.src='images/schampo-2-front.jpg'"
+                            onmouseout="this.src='images/schampo-2-front-black.jpg'"  alt="Produktbild schampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Be Fabulous Recovery Shampoo, Revlon
+                        </h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="schampo-3.html">
+                    <div class="product-image">
+                        <img src="images/schampo-3-front-black.jpg" onmouseover="this.src='images/schampo-3-front.jpg'"
+                            onmouseout="this.src='images/schampo-3-front-black.jpg'"  alt="Produktbild schampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Head & Hair Heal Shampoo, Maria Nila
+                        </h4>
+                        <h5 class="price">269kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="dryshampo-1.html">
+                    <div class="product-image">
+                        <img src="images/dryshampo-1-front-black.jpg" onmouseover="this.src='images/dryshampo-1-front.jpg'"
+                            onmouseout="this.src='images/dryshampo-1-front-black.jpg'"  alt="Produktbild torrschampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Torrshampo lila, Sunsilk
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="dryshampo-2.html">
+                    <div class="product-image">
+                        <img src="images/dryshampo-2-front-black.jpg" onmouseover="this.src='images/dryshampo-2-front.jpg'"
+                            onmouseout="this.src='images/dryshampo-2-front-black.jpg'"  alt="Produktbild torrschampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Torrshampo blå, Sunsilk
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product schampo har">
+                <a href="dryshampo-3.html">
+                    <div class="product-image">
+                        <img src="images/dryshampo-3-front-black.jpg" onmouseover="this.src='images/dryshampo-3-front.jpg'"
+                            onmouseout="this.src='images/dryshampo-3-front-black.jpg'"  alt="Produktbild torrschampo" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Torrshampo rosa, Sunsilk
+                        </h4>
+                        <h5 class="price">39kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product balsam har">
+                <a href="balsam-1.html">
+                    <div class="product-image">
+                        <img src="images/balsam-1-front-black.jpg" onmouseover="this.src='images/balsam-1-front.jpg'"
+                            onmouseout="this.src='images/balsam-1-front-black.jpg'"  alt="Produktbild balsam" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Blonde Life Brightening Conditioner, JOICO
+                        </h4>
+                        <h5 class="price">149kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product balsam har">
+                <a href="balsam-2.html">
+                    <div class="product-image">
+                        <img src="images/balsam-2-front-black.jpg" onmouseover="this.src='images/balsam-2-front.jpg'"
+                            onmouseout="this.src='images/balsam-2-front-black.jpg'"  alt="Produktbild balsam" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Be Fabulous Recovery Cream Conditioner, Revlon
+                        </h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product balsam har">
+                <a href="balsam-3.html">
+                    <div class="product-image">
+                        <img src="images/balsam-3-front-black.jpg" onmouseover="this.src='images/balsam-3-front.jpg'"
+                            onmouseout="this.src='images/balsam-3-front-black.jpg'"  alt="Produktbild balsam" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Be Fabulous Recovery Cream Conditioner, Revlon
+                        </h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product mascara oga visa">
+                <a href="mascara-1.html">
+                    <div class="product-image">
+                        <img src="images/mascara-1-front-black.jpg" onmouseover="this.src='images/mascara-1-front.jpg'"
+                            onmouseout="this.src='images/mascara-1-front-black.jpg'"  alt="Produktbild mascara" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Mascara,svart vattenfast, Loréal</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product mascara oga">
+                <a href="mascara-2.html">
+                    <div class="product-image">
+                        <img src="images/mascara-2-front-black.jpg" onmouseover="this.src='images/mascara-2-front.jpg'"
+                            onmouseout="this.src='images/mascara-2-front-black.jpg'"  alt="Produktbild mascara" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Mascara svart, Loréal</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product mascara oga">
+                <a href="mascara-3.html">
+                    <div class="product-image">
+                        <img src="images/mascara-3-front-black.jpg" onmouseover="this.src='images/mascara-3-front.jpg'"
+                            onmouseout="this.src='images/mascara-3-front-black.jpg'"  alt="Produktbild mascara" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Mascara brun, Loréal</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product pincett oga ogonbryn">
+                <a href="pincett-1.html">
+                    <div class="product-image">
+                        <img src="images/pincett-1-front-black.jpg" onmouseover="this.src='images/pincett-1-front.jpg'"
+                            onmouseout="this.src='images/pincett-1-front-black.jpg'"  alt="Produktbild pincett" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Pincett vit, Rubis</h4>
+                        <h5 class="price">289kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product pincett oga ogonbryn">
+                <a href="pincett-2.html">
+                    <div class="product-image">
+                        <img src="images/pincett-2-front-black.jpg" onmouseover="this.src='images/pincett-2-front.jpg'"
+                            onmouseout="this.src='images/pincett-2-front-black.jpg'"  alt="Produktbild pincett" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Pincett röd, Rubis</h4>
+                        <h5 class="price">289kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product pincett oga ogonbryn">
+                <a href="pincett-3.html">
+                    <div class="product-image">
+                        <img src="images/pincett-3-front-black.jpg" onmouseover="this.src='images/pincett-3-front.jpg'"
+                            onmouseout="this.src='images/pincett-3-front-black.jpg'"  alt="Produktbild pincett" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Pincett blå, Rubis</h4>
+                        <h5 class="price">289kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product settingspray anti-shine bas">
+                <a href="settingspray-1.html">
+                    <div class="product-image">
+                        <img src="images/settingspray-1-front-black.jpg" onmouseover="this.src='images/settingspray-1-front.jpg'"
+                            onmouseout="this.src='images/settingspray-1-front-black.jpg'"  alt="Produktbild settingspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Settingspray matt</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product settingspray bas">
+                <a href="settingspray-2.html">
+                    <div class="product-image">
+                        <img src="images/settingspray-2-front-black.jpg" onmouseover="this.src='images/settingspray-2-front.jpg'"
+                            onmouseout="this.src='images/settingspray-2-front-black.jpg'"  alt="Produktbild settingspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Settingspray Gloss</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product settingspray glitter bas">
+                <a href="settingspray-3.html">
+                    <div class="product-image">
+                        <img src="images/settingspray-3-front-black.jpg" onmouseover="this.src='images/settingspray-3-front.jpg'"
+                            onmouseout="this.src='images/settingspray-3-front-black.jpg'"  alt="Produktbild settingspray" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Settingspray Super Gloss</h4>
+                        <h5 class="price">99kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonbrynspenna oga ogonbryn">
+                <a href="eyebrow-1.html">
+                    <div class="product-image">
+                        <img src="images/eyebrow-1-front-black.jpg" onmouseover="this.src='images/eyebrow-1-front.jpg'"
+                            onmouseout="this.src='images/eyebrow-1-front-black.jpg'"  alt="Produktbild ögonbrynspenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonbrynspenna 101</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonbrynspenna oga ogonbryn">
+                <a href="eyebrow-2.html">
+                    <div class="product-image">
+                        <img src="images/eyebrow-2-front-black.jpg" onmouseover="this.src='images/eyebrow-2-front.jpg'"
+                            onmouseout="this.src='images/eyebrow-2-front-black.jpg'"  alt="Produktbild ögonbrynspenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonbrynspenna 102</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product ogonbrynspenna oga ogonbryn">
+                <a href="eyebrow-3.html">
+                    <div class="product-image">
+                        <img src="images/eyebrow-3-front-black.jpg" onmouseover="this.src='images/eyebrow-3-front.jpg'"
+                            onmouseout="this.src='images/eyebrow-3-front-black.jpg'"  alt="Produktbild ögonbrynspenna" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Ögonbrynspenna 103</h4>
+                        <h5 class="price">119kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappglans lappar">
+                <a href="lipgloss-2.html">
+                    <div class="product-image">
+                        <img src="images/lipgloss-2-front-black.jpg" onmouseover="this.src='images/lipgloss-2-front.jpg'"
+                            onmouseout="this.src='images/lipgloss-2-front-black.jpg'"  alt="Produktbild läppglans" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppglans beige</h4>
+                        <h5 class="price">95kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappglans lappar">
+                <a href="lipgloss-3.html">
+                    <div class="product-image">
+                        <img src="images/lipgloss-3-front-black.jpg" onmouseover="this.src='images/lipgloss-3-front.jpg'"
+                            onmouseout="this.src='images/lipgloss-3-front-black.jpg'"  alt="Produktbild läppglans" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppglans pink</h4>
+                        <h5 class="price">95kr</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product lappglans lappar">
+                <a href="lipgloss-4.html">
+                    <div class="product-image">
+                        <img src="images/lipgloss-4-front-black.jpg" onmouseover="this.src='images/lipgloss-4-front.jpg'"
+                            onmouseout="this.src='images/lipgloss-4-front-black.jpg'"  alt="Produktbild läppglans" />
+                    </div>
+                    <div class="read-more">
+                        <h4 class="productName">Läppglans hot pink</h4>
+                        <h5 class="price">95kr</h5>
+                    </div>
+                </a>
+            </div>
+    <!--JS FIX-->
+    <div id="content-product">
+        <div id="mainp">
+            <a href="/images/eyeliner-3-front.jpg" data-lightbox="eyeliner-3"> <img src="images/eyeliner-3-front.jpg"
+                    alt="Produktbild" id="product-image" /></a>
+            <i id="heartbottom" class="far fa-heart"></i>
+        </div>
+        <!--mainp-->
+        <div id="description">
+            <h1 id="productNames">Eyeliner blue, MAC</h1>
+            <h2 id="mini">Eyeliner blue, MAC</h2>
+            <p>
+                Vattenfast eyeliner.
+            </p>
+            <div class="pright">
+                Antal: <input id="antal" type="text" value="1">
+                <p id="validmsg"></p>
+                <h5 id="price">155</h5>
+                <p>kr</p>
+                <button id="buynow">Köp</button>
+            </div>
+            <!--pright-->
+        </div>
+        <!--description-->
+        <div id="minip">
+            <a href="images/eyeliner-3-front.jpg" data-lightbox="eyeliner-3"><img src="images/eyeliner-3-front.jpg"
+                    id="product-image-small2" alt="Produktbild" /></a>
+        </div>
+        <!--minip-->
+        <div id="holder">Art. nr: <div id="artNr">00078</div>
+        </div>
+        <!--holder-->
+    </div>
+    <!--content-product-->
+</div>
+<footer>
+    <div id="main-footer">
+        <div id="benefits">
+            <ul>
+                <li>Fri frakt över 500kr</li>
+                <li>Fria returer</li>
+                <li>Beställ senast 15.00 för leverans dagen efter</li>
+            </ul>
+        </div>
+        <div class="section-footer">
+            <img id="footerlogo" src="images/logo.svg" alt="Logotyp" />
+            <ul>
+                <li>
+                    <a href="about.html">Om oss</a>
+                </li>
+                <li>
+                    <a href="work.html">Jobba hos oss?</a>
+                </li>
+                <li>
+                    <a href="policy.html">Integritetspolicy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="section-footer">
+            <h4>Kundtjänst</h4>
+            <ul>
+                <li>
+                    <a href="contact.html">Kontakta oss</a>
+                </li>
+                <li>
+                    <a href="faq.html">Vanliga frågor</a>
+                </li>
+                <li>
+                    <a href="kopvillkor.html">Köpvillkor</a>
+                </li>
+            </ul>
+        </div>
+        <div class="section-footer">
+            <h4>Nyhetsbrev</h4>
+            <input type="email" id="input" placeholder="Din E-postadress">
+            <button id="submit">Gå med</button>
+            <p id="thankyou"></p>
+        </div>
+        <div class="section-footer">
+            <h4>Sociala medier</h4>
+            <img src="images/facebook.png" alt="Facebook ikon">
+            <img src="images/insta.png" alt="Instagram ikon">
+            <img src="images/twitter.png" alt="Twitter ikon">
+        </div>
+    </div>
+    <div id="bottom-footer">
+        <div id="left">
+            <h6>Du kan betala med</h6>
+            <img src="images/visa.png" alt="Visa Logotyp">
+            <img src="images/mastercard.png" alt="Mastercard Logotyp">
+            <img src="images/paypal.png" alt="Paypal Logotyp">
+            <img src="images/klarna.png" alt="Klarna logotyp">
+        </div>
+    </div>
+    <div id="right">
+        <h6>Vi skickar med</h6>
+        <img src="images/postnord.png" alt="PostNord Logotyp">
+        <img src="images/dhl.png" alt="DHL Logotyp">
+    </div>
+</footer> <!-- Footer-->
+</div>
+<!--container-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/generalp.js"></script>
+<script src="js/account.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
